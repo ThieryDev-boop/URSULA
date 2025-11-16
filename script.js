@@ -35,3 +35,12 @@ END:VCARD
     // Nettoyage
     document.body.removeChild(link);
 }
+
+    function openMap() {
+    const latitude = 3.887765;
+    const longitude = 11.503441;
+
+    const mapUrl = `https://www.google.com/maps?q=${latitude},${longitude}`;
+
+    window.open(mapUrl, "_blank");
+}
