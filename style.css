@@ -1,0 +1,161 @@
+/* ====== GENERAL ====== */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    color: #333;
+}
+
+/* ====== HEADER ====== */
+.header {
+    height: 180px;
+    background: #7A0C0C;
+}
+
+/* ====== PROFILE CARD ====== */
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+}
+
+.profile-card {
+    text-align: center;
+}
+
+.profile-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 6px solid white;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.profile-name {
+    margin-top: 15px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.profile-job {
+    color: #777;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.profile-job span {
+    display: block;
+    font-size: 15px;
+}
+
+/* ====== ACTION BUTTONS ====== */
+.action-buttons {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.action-btn {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.15);
+    font-size: 22px;
+    color: #7A0C0C;
+    transition: 0.3s;
+}
+
+.action-btn:hover {
+    background: #7A0C0C;
+    color: white;
+}
+
+/* ====== INFORMATION SECTION ====== */
+.info-section {
+    max-width: 650px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.info-card {
+    background: white;
+    padding: 20px 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+}
+
+.info-item {
+    display: flex;
+    gap: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.info-item:last-child {
+    border-bottom: none;
+}
+
+.info-item i {
+    font-size: 26px;
+    color: #7A0C0C;
+    margin-top: 5px;
+}
+
+.map-btn {
+    margin-top: 8px;
+    background: #f3e9e9;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #7A0C0C;
+    transition: 0.3s;
+}
+
+.map-btn:hover {
+    background: #7A0C0C;
+    color: white;
+}
+
+/* ====== ADD CONTACT BUTTON ====== */
+.add-contact {
+    margin-top: 25px;
+    width: 100%;
+    padding: 16px;
+    background: #7A0C0C;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-contact:hover {
+    background: #5e0808;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 600px) {
+    .info-section {
+        padding: 10px;
+    }
+
+    .profile-name {
+        font-size: 22px;
+    }
+
+    .action-btn {
+        width: 55px;
+        height: 55px;
+        font-size: 20px;
+    }
+}

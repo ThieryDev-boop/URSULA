@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte Professionnelle</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header"></header>
+
+    <section class="profile-section">
+        <div class="profile-card">
+
+            <img src="usurla1.jpg" class="profile-img" alt="Photo de profil">
+
+            <h1 class="profile-name">Ursula YAMDJEU</h1>
+            <p class="profile-job">Prestations de service<br><span>Business provider</span></p>
+
+            <div class="action-buttons">
+                <a href="tel:+237650107777" class="action-btn"><i class="fa fa-phone"></i></a>
+                <a href="mailto:yamsursula@gmail.com" class="action-btn"><i class="fa fa-envelope"></i></a>
+                <a href="mailto:yamsursula@gmail.com" class="action-btn"><i class="fa fa-location-dot"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+
+        <div class="info-card">
+            <div class="info-item">
+                <i class="fa fa-phone"></i>
+                <div>
+                    <h4>Téléphone</h4>
+                    <p>+237 650 10 77 77</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa fa-envelope"></i>
+                <div>
+                    <h4>Adresse e-mail</h4>
+                    <p>yamsursula@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="info-item">
+                <i class="fa fa-location-dot"></i>
+                <div>
+                    <h4>Lieu</h4>
+                    <p>Nouvelle route Bastos, Yaoundé, Région du Centre, Cameroun</p>
+
+                    <button class="map-btn">Afficher sur la carte</button>
+                </div>
+            </div>
+        </div>
+<button class="add-contact" onclick="addToContact()">
+    <i class="fa fa-user-plus"></i> Ajouter contact
+</button>
+
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
